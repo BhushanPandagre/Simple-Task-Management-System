@@ -1,6 +1,5 @@
-<h1>Simple_Task_Management_System</h1>
 
-# MERN Task Management System
+# MERN Simple Task Management System
 
 ## Overview
 The **MERN Task Management System** is a web-based application developed using the MERN stack (**MongoDB, Express.js, React.js, Node.js**) designed to streamline task management processes in organizations. It features two role-based panels: an **Admin Panel** for managing tasks and users, and an **Employee Panel** for task collaboration.
@@ -37,11 +36,11 @@ The Employee Panel allows employees to view and update their tasks efficiently:
 
 | Component      | Technology              |
 |----------------|-------------------------|
-| Frontend       | React.js, Bootstrap     |
+| Frontend       | React.js, css     |
 | Backend        | Node.js, Express.js     |
 | Database       | MongoDB                 |
 | Authentication | JWT (JSON Web Tokens)   |
-| Styling        | CSS, Bootstrap          |
+| Styling        | CSS         |
 
 ---
 
