@@ -53,4 +53,21 @@ cd client
 cd task management system
 
 
-##Install Dependencies
+
+## Developed By
+
+**[Bhushan Pandagre]**  
+🚀 **Developer | Programmer | Innovator**  
+
+📧 **Contact**: [pandagrebhushan3@gmail.com] 
+🔗 **GitHub**: [github.com/your-username](https://github.com/your-username)  
+🌐 **Portfolio**: [your-portfolio-link.com](https://your-portfolio-link.com) *(Optional)*  
+💼 **LinkedIn**: [www.linkedin.com/in/
+bhushan-pandagre
+]  
+
+---
+
+
+
+
