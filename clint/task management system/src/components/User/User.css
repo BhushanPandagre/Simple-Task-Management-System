@@ -1,0 +1,263 @@
+/* background-image: url("https://img.freepik.com/premium-photo/grey-geometric-technology-background-with-gear-shape_35691-30416.jpg"); */
+
+/* 
+
+.user-container-main{
+	height: 100vh;
+	width: 100vw;
+	background-color: red;
+
+    background: #7f8385db;
+    background-image: url("https://images.unsplash.com/photo-1551482850-d649f078ed01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-blend-mode: soft-light; 
+    background-attachment: fixed;
+}
+.user{
+    width: 100vw;
+    height: auto;
+	
+}
+
+.user-nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5vw;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.user-nav h2{
+    background-color: #101B17;
+    color: white;
+    padding: 3px 7px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.user-nav p{
+    display: flex;
+    justify-content: center;
+}
+.user-nav p label{
+    cursor: pointer;
+    font-size: 20px;
+    margin: auto 0;
+}
+.logout-button{
+    font-size: 30px;
+	cursor: pointer;
+    
+}
+
+.update-task{
+    font-size: 25px;
+    cursor: pointer;
+    color: #100115;
+} */
+
+
+
+
+
+
+
+.user-container-main {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://images.unsplash.com/photo-1551482850-d649f078ed01?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.user {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+    color: #fff;
+}
+
+.user-nav {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background: linear-gradient(90deg, #101B17, #1e2e29);
+    border-bottom: 1px solid #4caf50;
+    color: #fff;
+}
+
+.user-nav h2 {
+    background: linear-gradient(90deg, #4caf50, #81c784);
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.user-nav p {
+    display: flex;
+    align-items: center;
+}
+
+.user-nav p label {
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: color 0.3s ease;
+}
+
+.user-nav p label:hover {
+    color: #81c784;
+}
+
+.logout-button {
+    font-size: 28px;
+    color: #4caf50;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    color: #81c784;
+}
+
+.user-task {
+    padding: 20px;
+}
+
+.user-task table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #101B17;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.user-task table th,
+.user-task table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #4caf50;
+    color: #fff;
+}
+
+.user-task table th {
+    background: #1e2e29;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.user-task table td:last-child {
+    text-align: center;
+}
+
+.user-task table tbody tr:hover {
+    background: rgba(76, 175, 80, 0.2);
+    transition: background 0.3s ease;
+}
+
+.update-task {
+    font-size: 20px;
+    cursor: pointer;
+    color: #4caf50;
+    transition: transform 0.2s ease, color 0.3s ease;
+}
+
+.update-task:hover {
+    color: #81c784;
+    transform: scale(1.1);
+}
+
+/* Pagination */
+.pagination {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination-button {
+    padding: 8px 12px;
+    background: #1e2e29;
+    color: #fff;
+    border: 1px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pagination-button:hover {
+    background: #4caf50;
+    color: #fff;
+}
+
+.pagination-button.active {
+    background: #81c784;
+    border: none;
+    color: #fff;
+}
+
+.confirmation-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #101B17;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    color: #fff;
+    text-align: center;
+}
+
+.confirmation-box h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #4caf50;
+}
+
+.confirmation-box-buttons button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.confirmation-box-buttons button:hover {
+    opacity: 0.8;
+}
+
+.confirmation-box-buttons .yes {
+    background: #4caf50;
+    color: #fff;
+}
+
+.confirmation-box-buttons .no {
+    background: #f44336;
+    color: #fff;
+}
