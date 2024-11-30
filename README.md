@@ -48,6 +48,7 @@ The Employee Panel allows employees to view and update their tasks efficiently:
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd task-management-system
+git clone <[repository-url](https://github.com/BhushanPandagre/Simple-Task-Management-System.git)>
+cd client
+cd task management system
 
