@@ -52,3 +52,5 @@ git clone <[repository-url](https://github.com/BhushanPandagre/Simple-Task-Manag
 cd client
 cd task management system
 
+
+##Install Dependencies
