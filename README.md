@@ -58,12 +58,16 @@ Run the following command to install all required dependencies:
 ```bash
 npm install
 
-<h1>Set Up Environment Variables<h1>
-Create a .env file in the root directory with the following keys:
 
-PORT=5000
+### Set Up Environment Variables
+
+Create a `.env` file in the root directory of your project and include the following keys:
+
+```plaintext
+PORT=3000
 DATABASE_URL=<your-database-url>
 JWT_SECRET=<your-secret-key>
+
 
 ## Developed By
 
