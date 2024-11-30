@@ -63,7 +63,7 @@ npm install
 
 Create a `.env` file in the root directory of your project and include the following keys:
 
-PORT=3000
+PORT=5000
 DATABASE_URL=<your-database-url>
 JWT_SECRET=<your-secret-key>
 
@@ -84,6 +84,17 @@ Navigate to the `server` folder and use the following command to start the backe
 cd server
 nodemon server.js
 
+### Usage Instructions
+
+#### Admin Functions:
+- Log in using the **admin credentials**.
+- Add employees and assign tasks via the **Admin Panel**.
+- Monitor task progress and update task statuses as needed.
+
+#### Employee Functions:
+- Log in using the **employee credentials**.
+- View assigned tasks in the **Employee Panel**.
+- Update the status of tasks as they progress (e.g., Pending, In Progress, Completed).
 
 
 ## Developed By
