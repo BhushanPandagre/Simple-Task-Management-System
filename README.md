@@ -60,11 +60,10 @@ cd task management system
 🚀 **Developer | Programmer | Innovator**  
 
 📧 **Contact**: [pandagrebhushan3@gmail.com] 
-🔗 **GitHub**: [github.com/your-username](https://github.com/your-username)  
 🌐 **Portfolio**: [(https://logo-generator-ra9f.vercel.app/)]  
-💼 **LinkedIn**: [www.linkedin.com/in/
-bhushan-pandagre
-]  
+💼 **LinkedIn**: [www.linkedin.com/in/bhushan-pandagre ] 
+
+ 
 
 ---
 
