@@ -63,10 +63,27 @@ npm install
 
 Create a `.env` file in the root directory of your project and include the following keys:
 
-```plaintext
 PORT=3000
 DATABASE_URL=<your-database-url>
 JWT_SECRET=<your-secret-key>
+
+### Start the Application
+
+#### Start the Frontend Development Server:
+Navigate to the `client` folder and run the following command to start the development server:
+
+
+cd client
+cd task management system
+npm start dev
+
+#### Start the Backend Server:
+
+Navigate to the `server` folder and use the following command to start the backend server:
+
+cd server
+nodemon server.js
+
 
 
 ## Developed By
