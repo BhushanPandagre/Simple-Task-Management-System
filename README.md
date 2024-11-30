@@ -52,7 +52,18 @@ git clone <[repository-url](https://github.com/BhushanPandagre/Simple-Task-Manag
 cd client
 cd task management system
 
+### Install Dependencies
+Run the following command to install all required dependencies:
 
+```bash
+npm install
+
+<h1>Set Up Environment Variables<h1>
+Create a .env file in the root directory with the following keys:
+
+PORT=5000
+DATABASE_URL=<your-database-url>
+JWT_SECRET=<your-secret-key>
 
 ## Developed By
 
