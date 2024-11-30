@@ -61,7 +61,7 @@ cd task management system
 
 📧 **Contact**: [pandagrebhushan3@gmail.com] 
 🔗 **GitHub**: [github.com/your-username](https://github.com/your-username)  
-🌐 **Portfolio**: [your-portfolio-link.com](https://your-portfolio-link.com) *(Optional)*  
+🌐 **Portfolio**: [(https://logo-generator-ra9f.vercel.app/)]  
 💼 **LinkedIn**: [www.linkedin.com/in/
 bhushan-pandagre
 ]  
