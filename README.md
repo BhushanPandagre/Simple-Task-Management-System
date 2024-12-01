@@ -48,14 +48,13 @@ The Employee Panel allows employees to view and update their tasks efficiently:
 
 ### Clone the Repository
 ```bash
-git clone <[repository-url](https://github.com/BhushanPandagre/Simple-Task-Management-System.git)>
+git clone <(https://github.com/BhushanPandagre/Simple-Task-Management-System.git)>
 cd client
 cd task management system
 
 ### Install Dependencies
 Run the following command to install all required dependencies:
 
-```bash
 npm install
 
 
